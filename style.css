@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bite{
+    color: red;
+}
+.regular-menu{
+    background-color:#fcebc1;
+    margin-top: 3.5em;
+    padding-top: 2em;
+}
+.nav-button button{
+    background-color: rgb(243, 247, 10);
+    border-style: none;
+    padding: 4px 1em;
+    border-radius: 1em;
+}
+.serve-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taste-img img{
+    width: 50%;
+    /* height: 50vh; */
+    border-radius: 20em;
+}
+.taste-text{
+    width: 60%;
+}
+.explore {
+    background-color: rgb(243, 247, 10);
+    border-style: none;
+    padding: 4px 1em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    
+}
+.explore a{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    border-color: rgb(243, 247, 10);
+    border-width: 3px;
+    background-color: white;
+    border-style: solid;
+    padding: 4px 1em;
+    border-radius: 1em;
+}
+.taste-img img{
+    width: 90%;
+    height: 50vh;
+    border-radius: 50%;
+}
+ .taste-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dish-img1,.dish-img2,.dish-img3,.dish-img4,.dish-img5{
+    background-color: white;
+    border: 1px transparent;
+    border-radius: 1em;
+    margin-bottom:8px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.dish-img1,.dish-img2,.dish-img3,.dish-img4,.dish-img5,img{
+    margin-right: 4px;
+}
+.dish-img img{
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.pop-dish-arrow{
+    display: flex;
+}
+.pop-dish-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+
+}
+.first,.second{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 9px;
+}
+.first:hover{
+    background-color: rgb(179, 182, 6);
+    cursor: pointer;
+}
+.second:hover{
+    background-color: white;
+    cursor: pointer; 
+}
+.first{
+    border-width: 2px;
+    border-color: rgb(179, 182, 6);
+}
+.second{
+    background-color:rgb(179, 182, 6);
+    border-style: transparent;
+}
+.pop-dish-one,.pop-dish-two,.pop-dish-three,.pop-dish-four{
+margin-bottom: 1em;
+}
+
+.pop-dish-one img{
+    border-radius: 3em;
+}
+.pop-dish-two img{
+    border-radius: 3em;
+}
+.pop-dish-three img{
+    border-radius: 3em;
+}
+.pop-dish-three h3{
+    /* height: 40px; */
+}
+.pop-dish-four img{
+    border-radius: 3em;
+} 
+.pop-dish-one,.pop-dish-two,.pop-dish-three,.pop-dish-four{
+    border: 1px;
+    text-align: center;
+    background-color: white;
+    border-radius: 9px;
+    padding: 8px;
+}
+.pop-dish-one  h3,.pop-dish-two h3,.pop-dish-three h3,.pop-dish-four h3{
+    text-align: center;
+}
+.pop-dish{
+    background-color:  #fcebc1;
+    padding-top: 1em;
+    
+}
+.stars{
+    color:  rgb(179, 182, 6);
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-four{
+    background-color: white;
+    padding: 4px 0.5em;
+    border-color: rgb(179, 182, 6);
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.cart-three{
+    background-color:rgb(179, 182, 6);
+    padding: 4px 0.5em;
+    border-radius: 13px;
+    border-style: none;
+}
+.multi-service{
+    padding-top: 2em;
+}
+.multi-txt{
+    margin-top: 1.5em;
+}
+.multi-txt h3{
+    width: 60%;
+}
+.multi-txt-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.about-us{
+    background-color: rgb(179, 182, 6);
+    padding: 4px 0.5em;
+    border-radius: 13px;
+    border-style: none;
+}
+.about-us:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.regular-menu{
+    margin-top: 2.5em;
+}
+.regular-menu-txt{
+    margin-bottom: 1.5em;
+}
+.regular-menu-txt h3{
+    text-align: center;
+}
+.regular-menu-buttons button{
+    padding: 5px 10px;
+    background-color: rgb(179, 182, 6) ;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.regular-menu-buttons{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.special button{
+    background-color: white;
+    padding: 4px 0.5em;
+    border-color: rgb(179, 182, 6);
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.mexican button{
+    background-color: white;
+    padding: 4px 1em;
+    border-color: rgb(179, 182, 6);
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.italian button{
+    background-color: rgb(179, 182, 6);
+    padding: 4px 1em;
+    border-radius: 13px;
+    border-style: none;
+}
+.japan button{
+    background-color: white;
+    padding: 4px 1em;
+    border-color: rgb(179, 182, 6);
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.drinks button{
+    background-color: white;
+    padding: 4px 1em;
+    border-color: rgb(179, 182, 6);
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.lunch button{
+    background-color: white;
+    padding: 4px 1em;
+    border-color: rgb(179, 182, 6);
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.more button{
+    background-color: white;
+    padding: 4px 0.5em;
+    border-color: rgb(179, 182, 6);
+    border-radius: 13px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.dinner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-flex-arrow{
+    display: flex;
+}
+
+.third,.fourth{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 9px;
+}
+.third:hover{
+    background-color: rgb(179, 182, 6);
+    cursor: pointer;
+}
+.fourth:hover{
+    background-color: white;
+    cursor: pointer; 
+}
+.third{
+    border-width: 2px;
+    border-color: rgb(179, 182, 6);
+}
+.fourth{
+    background-color:rgb(179, 182, 6);
+    border-style: transparent;
+}
+.review-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.review-one,.review-two,.review-three, h3{
+    text-align: left;
+}
+.review-one,.review-two,.review-three{
+    border: 1px solid;
+    border-radius: 1em;
+    border-color:rgb(82, 12, 12);
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.chef-one,.chef-two,.chef-three,.chef-four, h3{
+    /* text-align: center; */
+}
+.chef-one,.chef-two,.chef-three,.chef-four{
+    padding: 0 1em;
+    border: 1px solid;
+    margin-bottom: 1em;
+}
+.hungry-bg{
+    background-color:  #fcebc1;
+}
+.never-hungry-txt h2 {
+    width: 95%;
+}
+.never-hungry-txt {
+    padding-left:1em;
+}
+.never-hungry-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    text-decoration: none;
+    color: black;
+}
+.email-flex{
+    display: flex;
+}
+.fifth{
+    margin-left: 1em;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: rgb(179, 182, 6) ;
+    border-style: none;
+    padding: 0 5px;
+}
+.fifth:hover{
+    background-color:  rgb(55, 56, 4);
+    color: white;
+    cursor: pointer;
+}
+.make-reserve{
+    background-color: rgb(243, 247, 10);
+    border-style: none;
+    padding: 4px 1em;
+    border-radius: 1em;
+}
+.make-reserve:hover{
+    background-color:  rgb(55, 56, 4);
+    color: white;
+    cursor: pointer;
+}
